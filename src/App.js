@@ -194,13 +194,13 @@ function App() {
             />
           </div>
         </Navbar>
-        <div className="w-[1000px] flex items-center ">
-          <div className="flex gap-8 flex-wrap items-center py-2">
+        <div className="sm:w-[1000px] h-full flex items-center ">
+          <div className="flex gap-2 flex-wrap justify-center items-center py-2">
             {details.length > 0 &&
               details.map((res, index) => (
                 <div
                   key={index}
-                  className="bg-slate-600 w-[480px] py-2 px-4 rounded-lg"
+                  className="bg-slate-600 sm:w-[45%] w-[80%] py-2 px-4 rounded-lg"
                 >
                   <div className="flex justify-between  mb-2">
                     <span className="text-white text-xl font-bold">
@@ -270,7 +270,7 @@ function App() {
           </div>
         </div>
         <ToastContainer />
-        <div className="absolute z-20 bottom-0 bg-slate-600 min-w-full h-24 flex py-4 justify-center ">
+        <div className="sm:absolute sm:bottom-0 bg-slate-600 min-w-full h-24 flex py-4 justify-center ">
           <span className="inline-flex space-x-1 items-center  text-white">
             <span className="">Made with</span>
             <span>
