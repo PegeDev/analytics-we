@@ -271,7 +271,7 @@ function App() {
         </div>
         <ToastContainer />
         <div className="absolute z-20 bottom-0 bg-slate-600 min-w-full h-24 flex py-4 justify-center ">
-          <span className="inline-flex space-x-1  text-white">
+          <span className="inline-flex space-x-1 items-center  text-white">
             <span className="">Made with</span>
             <span>
               <IoIosHeart />
