@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
+  @apply bg-slate-400;
   margin: 0;
   font-family: "Poppins";
   -webkit-font-smoothing: antialiased;
